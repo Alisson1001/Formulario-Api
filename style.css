@@ -37,7 +37,11 @@ button{
     margin-top: 25px;
     color: white;
     padding: 20px;
+    transition: 0.5s ease;
     
+}
+button:hover{
+    transform: scale(1.1);
 }
 
 @media print{
