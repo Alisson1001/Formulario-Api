@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(53, 0, 0);
+}
+
+
+#print{
+    display: none;
+}
+
+#formulario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width:200px ;
+    margin: 0 auto;
+    margin-top: 15%;
+    font-size: 20px;
+
+    background-color: black;
+    padding: 70px;
+    border-radius: 25px;
+
+
+}
+
+label{
+    color: white;
+    font-size: 20px;
+    
+}
+input{
+    border-radius: 5px;
+}
+button{
+    background-color: green;
+    border-radius: 25px;
+    margin-top: 25px;
+    color: white;
+    padding: 20px;
+    
+}
+
+@media print{
+    #print{
+        display: block;
+    }
+}
+@media print {
+    #formulario{
+        display: none;
+
+    }
+}
